@@ -1,0 +1,57 @@
+﻿# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build/distribution artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime logs and temporary files
+logs/*.log
+*.tmp
+*.temp
+
+# Generated reports and forensic exports
+reports/dumps/
+reports/*.pdf
+reports/*.csv
+reports/*.json
+reports/*.html
+report*.pdf
+case*.json
+
+# Volatility/forensics artifact patterns generated in project root
+file.*
+tmp_*.vol3
+
+# Optional local case/data bundles
+*.zip
+*.7z
+*.rar
